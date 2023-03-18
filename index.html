@@ -8,26 +8,31 @@
     <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-    <header>
-        <p>Todo List using JavaScript</p>
-    </header>
+    
 
     <main>
 
-        <form id="todo-form">
-            <input 
-                type="text" 
-                id="todo-input"
-                placeholder="Enter list"/>
-            <input 
-                type="submit"
-                id="todo-submit" 
-                value="Add"/>
-        </form>
+        <header>
+            <p>Todo List using JavaScript</p>
+        </header>
+
+        
         
         <section class="todo-list">
 
-            <div id="individual-list">
+
+            <div id="individual-list" class="todo-card">
+
+                <form id="todo-form">
+                    <input 
+                        type="text" 
+                        id="todo-input"
+                        placeholder="Enter list"/>
+                    <input 
+                        type="submit"
+                        id="todo-submit" 
+                        value="Add"/>
+                </form>
 
                 <div class="todo">
                     <div class="content">
